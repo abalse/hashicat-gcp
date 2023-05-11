@@ -1,7 +1,7 @@
 module "network" {
   source  = "app.terraform.io/example-org-244af6/network/google"
   version = "3.4.0"
-  network_name = abhijit-network
+  network_name = "abhijit-network"
   project_id = var.project
   subnets = [
    {
